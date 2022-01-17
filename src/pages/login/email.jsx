@@ -2,7 +2,6 @@ import { PALLETS } from '../../constants';
 import Link from 'next/link';
 import { useState, useEffect, useRef } from 'react';
 import styled from '@emotion/styled';
-import axios from 'axios';
 
 const LoginEmailPage = () => {
   const inputEmail = useRef();
